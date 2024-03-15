@@ -13,10 +13,10 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    - name: Checkout code
+    - name: taks management
       uses: actions/checkout@v2
 
-    - name: Use Node.js
+    - name:  Node.js
       uses: actions/setup-node@v2
       with:
         node-version: '14'
